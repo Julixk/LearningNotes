@@ -1,7 +1,5 @@
 # MPI 并行编程技术 - 组通信概述
 
-> 视频链接：[https://www.bilibili.com/video/BV15T4y1v7cb](https://www.bilibili.com/video/BV15T4y1v7cb)
-
 ## 一、什么是组通信（Collective Communication）
 
 组通信是 MPI 中的一种通信方式，涉及一组进程之间的数据交换操作。与点对点通信不同，组通信要求通信组内的所有进程都参与操作，常用于数据的广播、收集、分发、规约等场景。
